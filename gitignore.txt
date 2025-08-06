@@ -1,0 +1,26 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+
+# Environment variables and secrets
+.env
+
+# SQLite database (persistent, local)
+symbols.db
+symbols_export.csv
+symbols_export.json
+bot.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Docker ignore (if any)
+.dockerignore
